@@ -1,6 +1,14 @@
+main{
+    overflow: hidden;
+}
 .brightness{
     filter: brightness(50%);
 }
 .carousel-caption{
     bottom: 130px;
+}
+@media only screen and (max-width: 576px) {
+    .register-text{
+        text-align: center;
+    }
 }
