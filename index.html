@@ -18,494 +18,607 @@
 <body>
     <main>
         <!-- head section start -->
-    <header>
-        <!-- navigation start  -->
+        <header>
+            <!-- navigation start  -->
+            <section class="container">
+                <nav class="navbar navbar-expand-lg bg-light fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">P-Hero Tech</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#our-courses">Courses</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#student">Students</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#registration">Register</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#quescion">FAQ</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Other Courses
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Mongo DB</a></li>
+                                        <li><a class="dropdown-item" href="#">Express js</a></li>
+                                        <li><a class="dropdown-item" href="#">React js</a></li>
+                                        <li><a class="dropdown-item" href="#">Node js</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Programing Hero Web Development</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <button class="btn btn-outline-success" type="submit">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+            <!-- navigation end -->
+            <!-- image slider start  -->
+            <section class="container my-5">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/cover/cover-1.png" class="d-block w-100 brightness" alt="..."
+                                height="500px">
+                            <div class="carousel-caption d-md-block">
+                                <h1>Programing Hero Web Development Course</h1>
+                                <p>Programing Hero Web Development Course is Most Popullur Course in Bangladesh. Highly
+                                    recomanded course</p>
+                                <div class="slider-btn">
+                                    <button type="button" class="btn btn-primary">Get Started</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cover/cover-2.jpg" class="d-block w-100 brightness" alt="..."
+                                height="500px">
+                            <div class="carousel-caption d-md-block">
+                                <h1>Programing Hero Web Development Course</h1>
+                                <p>Programing Hero Web Development Course is Most Popullur Course in Bangladesh. Highly
+                                    recomanded course</p>
+
+                                <div class="slider-btn">
+                                    <button type="button" class="btn btn-primary">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/cover/cover-3.jpg" class="d-block w-100 brightness" alt="..."
+                                height="500px">
+                            <div class="carousel-caption d-md-block">
+                                <h1>Programing Hero Web Development Course</h1>
+                                <p>Programing Hero Web Development Course is Most Popullur Course in Bangladesh. Highly
+                                    recomanded course</p>
+
+                                <div class="slider-btn">
+                                    <button type="button" class="btn btn-primary">Get Started</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+            <!-- image slider end  -->
+        </header>
+        <!-- head section end -->
+
+        <!-- main part start  -->
+        <!-- courses part start  -->
         <section class="container">
-            <nav class="navbar navbar-expand-lg bg-light fixed-top">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">P-Hero Tech</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#our-courses">Courses</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#registration">Register</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#quescion">FAQ</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Other Courses
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Mongo DB</a></li>
-                                    <li><a class="dropdown-item" href="#">Express js</a></li>
-                                    <li><a class="dropdown-item" href="#">React js</a></li>
-                                    <li><a class="dropdown-item" href="#">Node js</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Programing Hero Web Development</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <button class="btn btn-outline-success" type="submit">Register</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
-        </section>
-        <!-- navigation end -->
-        <!-- image slider start  -->
-        <section class="container my-5">
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/cover/cover-1.png" class="d-block w-100 brightness" alt="..." height="500px">
-                        <div class="carousel-caption d-md-block">
-                            <h1>Programing Hero Web Development Course</h1>
-                            <p>Programing Hero Web Development Course is Most Popullur Course in Bangladesh. Highly
-                                recomanded course</p>
-                            <div class="slider-btn">
-                                <button type="button" class="btn btn-primary">Get Started</button>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-2.jpg" class="d-block w-100 brightness" alt="..." height="500px">
-                        <div class="carousel-caption d-md-block">
-                            <h1>Programing Hero Web Development Course</h1>
-                            <p>Programing Hero Web Development Course is Most Popullur Course in Bangladesh. Highly
-                                recomanded course</p>
-
-                            <div class="slider-btn">
-                                <button type="button" class="btn btn-primary">Get Started</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/cover/cover-3.jpg" class="d-block w-100 brightness" alt="..." height="500px">
-                        <div class="carousel-caption d-md-block">
-                            <h1>Programing Hero Web Development Course</h1>
-                            <p>Programing Hero Web Development Course is Most Popullur Course in Bangladesh. Highly
-                                recomanded course</p>
-
-                            <div class="slider-btn">
-                                <button type="button" class="btn btn-primary">Get Started</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-        </section>
-        <!-- image slider end  -->
-    </header>
-    <!-- head section end -->
-
-    <!-- main part start  -->
-    <!-- courses part start  -->
-    <section class="container">
-        <div class="d-flex justify-content-center">
-            <div class="text-center my-5">
-                <h1>Discover Our Popular Courses</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.</p>
-            </div>
-        </div>
-        <!-- cards start -->
-        <section class="container" id="our-courses">
-            <div class="row g-1">
-                <div class="card mb-3 mx-auto" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img class="w-100" src="images/course/course-1.png" class="img-fluid rounded-start"
-                                alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">UI / UX Design</h5>
-                                <p class="card-text">UX and UI are two interdependent terms. While UI generally deals
-                                    with the interaction between users and computer systems.</p>
-                                <h5 class="card-text text-primary">Price: 20$</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 mx-auto" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img class="w-100" src="images/course/course-2.png" class="img-fluid rounded-start"
-                                alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">JS Basic To Advance</h5>
-                                <p class="card-text">JavaScript is a text-based programming language used both on the
-                                    client-side and server-side</p>
-                                <h5 class="card-text text-primary">Price: 25$</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 mx-auto" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img class="w-100" src="images/course/course-3.png" class="img-fluid rounded-start"
-                                alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Mongo DB</h5>
-                                <p class="card-text">MongoDB is an open source NoSQL database management program. NoSQL
-                                    is used as an alternative to traditional relational databases.</p>
-                                <h5 class="card-text text-primary">Price: 30$</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 mx-auto d-none d-md-none d-lg-block" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img class="w-100" src="images/course/course-4.png" class="img-fluid rounded-start"
-                                alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Express. js</h5>
-                                <p class="card-text">Express is a node js web application framework that provides broad
-                                    features for building web and mobile applications.</p>
-                                <h5 class="card-text text-primary">Price: 20$</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 mx-auto d-none d-md-none d-lg-block" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img class="w-100" src="images/course/course-5.png" class="img-fluid rounded-start"
-                                alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">React. Js</h5>
-                                <p class="card-text">React. js is an open-source JavaScript library that is used for
-                                    building user interfaces specifically for single-page applications.</p>
-                                <h5 class="card-text text-primary">Price: 50$</h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card mb-3 mx-auto d-none d-md-none d-lg-block" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img class="w-100" src="images/course/course-6.png" class="img-fluid rounded-start"
-                                alt="...">
-                        </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Node. js</h5>
-                                <p class="card-text">Node. js is a platform built on Chrome's JavaScript runtime for
-                                    easily building fast and scalable network applications.</p>
-                                <h5 class="card-text text-primary">Price: 35$</h5>
-                            </div>
-                        </div>
-                    </div>
+            <div class="d-flex justify-content-center">
+                <div class="text-center my-5">
+                    <h1>Discover Our Popular Courses</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
                 </div>
             </div>
-        </section>
-        <!-- cards end  -->
-    </section>
-    <!-- see more button  -->
-    <section class="container">
-        <div class="d-flex justify-content-center">
-            <div class="text-center my-5">
-                <div class="btn btn-info text-white">See more course</div>
-            </div>
-        </div>
-    </section>
-    <!-- course part end  -->
-
-
-    <!-- register part start from here  -->
-    <section class="container my-5" id="registration">
-        <div class="row bg-info border rounded p-5">
-            <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
-                <div class="text-white register-text">
-                    <h1>Ready to join?</h1>
-                    <p>It is a long established fact that a reader will be distracted by the
-                        readable content of a page when looking at its layout.</p>
-                </div>
-
-            </div>
-            <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
-                <div>
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn bg-white text-primary" data-bs-toggle="modal"
-                        data-bs-target="#exampleModal">
-                        Click Here for Register
-                    </button>
-
-                    <!-- Modal form start -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Registration Here</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="">
-                                        <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput"
-                                                placeholder="name@example.com">
-                                            <label for="floatingInput">User Name</label>
-                                        </div>
-                                        <div class="form-floating mb-3">
-                                            <input type="email" class="form-control" id="floatingInput"
-                                                placeholder="name@example.com">
-                                            <label for="floatingInput">Email address</label>
-                                        </div>
-                                        <div class="form-floating mb-3">
-                                            <input type="password" class="form-control" id="floatingPassword"
-                                                placeholder="Password">
-                                            <label for="floatingPassword">Password</label>
-                                        </div>
-                                        <select class="form-select mb-3" aria-label="Default select example">
-                                            <option selected>Select Your Country</option>
-                                            <option value="1">Bangladesh</option>
-                                            <option value="2">Turkey</option>
-                                            <option value="3">Pakistan</option>
-                                            <option value="3">Morocco</option>
-                                            <option value="3">Indonesia</option>
-                                            <option value="3">Phillipines</option>
-                                            <option value="3">Malayesia</option>
-                                            <option value="3">Bhutan</option>
-                                            <option value="3">Qatar</option>
-                                        </select>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                Male
-                                            </label>
-                                        </div>
-                                        <div class="form-check">
-                                            <input class="form-check-input" type="radio" name="flexRadioDefault"
-                                                id="flexRadioDefault1">
-                                            <label class="form-check-label" for="flexRadioDefault1">
-                                                Female
-                                            </label>
-                                        </div>
-
-
-                                        <div class="form-check mb-3">
-                                            <input class="form-check-input" type="checkbox" value=""
-                                                id="flexCheckDefault">
-                                            <label class="form-check-label" for="flexCheckDefault">
-                                                I accept all of your <a href="">terms and conditions</a>
-                                            </label>
-                                        </div>
-                                        <input class="btn btn-primary" type="button" value="Register">
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary"
-                                        data-bs-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+            <!-- cards start -->
+            <section class="container" id="our-courses">
+                <div class="row g-1">
+                    <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="w-100" src="images/course/course-1.png" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">UI / UX Design</h5>
+                                    <p class="card-text">UX and UI are two interdependent terms. While UI generally
+                                        deals
+                                        with the interaction between users and computer systems.</p>
+                                    <h5 class="card-text text-primary">Price: 20$</h5>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Modal form end  -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- register part end here  -->
-
-    <!-- frequently asked quesctions start here  -->
-    <section class="container" id="quescion">
-        <div class="d-flex justify-content-center">
-            <div class="text-center w-50 mt-5">
-                <h1>Frequently Asked Questions</h1>
-                <p>It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.</p>
-            </div>
-        </div>
-        <!-- faqq starts from here -->
-        <div class="d-flex justify-content-center">
-            <div class="text-center w-75 m-3">
-                <div class="accordion" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                aria-controls="panelsStayOpen-collapseOne">
-                                What are the difference between between HTML "Flex" and "Grid"
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <strong>Dimensions define the primary demarcation</strong> between Flexbox and CSS Grid.
-                                Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is
-                                engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render rows
-                                and columns simultaneously.
-
-                                In layperson’s terms, CSS Grid presents a larger canvas, while Flexbox offers minute
-                                functionality that operates in a restricted space. The grids have been designed for a
-                                two-dimensional organization.
+                    <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="w-100" src="images/course/course-2.png" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">JS Basic To Advance</h5>
+                                    <p class="card-text">JavaScript is a text-based programming language used both on
+                                        the
+                                        client-side and server-side</p>
+                                    <h5 class="card-text text-primary">Price: 25$</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseTwo">
-                                Difference between "Bootstrap" and "Tailwind".
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body">
-                                <strong> Bootstrap comes with a set of pre-styled</strong> responsive, mobile-first
-                                components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to
-                                create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap
-                                follow the generic pattern that makes them look identical.
+                    <div class="card mb-3 mx-auto" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="w-100" src="images/course/course-3.png" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mongo DB</h5>
+                                    <p class="card-text">MongoDB is an open source NoSQL database management program.
+                                        NoSQL
+                                        is used as an alternative to traditional relational databases.</p>
+                                    <h5 class="card-text text-primary">Price: 30$</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseThree">
-                                What is CSS Box Model?
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body">
-                                <strong>In CSS, the term "box model" is used</strong> when talking about design and
-                                layout. The CSS box model is essentially a box that wraps around every HTML element. It
-                                consists of: margins, borders, padding, and the actual content.
-
+                    <div class="card mb-3 mx-auto d-none d-md-none d-lg-block" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="w-100" src="images/course/course-4.png" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Express. js</h5>
+                                    <p class="card-text">Express is a node js web application framework that provides
+                                        broad
+                                        features for building web and mobile applications.</p>
+                                    <h5 class="card-text text-primary">Price: 20$</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseFour">
-                                What is Semantic tag?
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingFour">
-                            <div class="accordion-body">
-                                <strong>Semantic HTML elements are</strong> those that clearly describe their meaning in
-                                a human- and machine-readable way. Elements such as "header", "footer" and "article" are
-                                all considered semantic because they accurately describe the purpose of the element and
-                                the type of content that is inside them.
+                    <div class="card mb-3 mx-auto d-none d-md-none d-lg-block" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="w-100" src="images/course/course-5.png" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">React. Js</h5>
+                                    <p class="card-text">React. js is an open-source JavaScript library that is used for
+                                        building user interfaces specifically for single-page applications.</p>
+                                    <h5 class="card-text text-primary">Price: 50$</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3 mx-auto d-none d-md-none d-lg-block" style="max-width: 540px;">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img class="w-100" src="images/course/course-6.png" class="img-fluid rounded-start"
+                                    alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Node. js</h5>
+                                    <p class="card-text">Node. js is a platform built on Chrome's JavaScript runtime for
+                                        easily building fast and scalable network applications.</p>
+                                    <h5 class="card-text text-primary">Price: 35$</h5>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
+            <!-- cards end  -->
+        </section>
+        <!-- see more button  -->
+        <section class="container">
+            <div class="d-flex justify-content-center">
+                <div class="text-center my-5">
+                    <div class="btn btn-info text-white">See more course</div>
+                </div>
             </div>
-        </div>
-        <!-- faqq emd from here -->
-    </section>
-    <!-- frequently asked quesctions end here  -->
+        </section>
+        <!-- course part end  -->
 
-    <!-- companyes start here  -->
-    <section class="my-5 d-none d-md-none d-lg-block">
-        <div class="row">
-            <div class="col-lg-12 d-flex justify-content-center">
-                <div>
+
+        <!-- this is an optional section  -->
+        <!-- working part start from here  -->
+        <section class="container">
+            <div class="row  bg-light">
+                <div class="col-lg-5 col-md-5">
+                    <img src="images/working.png" alt="man with computer" class="img-fluid">
+                </div>
+                <div class="col-lg-7 col-md-7 p-2 d-flex align-items-center">
                     <div>
-                        <h1 class="text-center">Trusted by over 800+ companies</h1>
-                    </div>
-                    <div class="mt-5">
-                        <img class="mx-3" src="images/company/company-1.png" alt="">
-                        <img class="mx-3" src="images/company/company-2.png" alt="">
-                        <img class="mx-3" src="images/company/company-3.png" alt="">
-                        <img class="mx-3" src="images/company/company-4.png" alt="">
-                        <img class="mx-3" src="images/company/company-5.png" alt="">
-                        <img class="mx-3" src="images/company/company-6.png" alt="">
+                        <div>
+                            <h1>Explore The elearning Institute</h1>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the
+                                majority have suffered alteration in some form.
+                            </p>
+                            <p>Anything embarrassing hidden in the middle of text.
+                            </p>
+                        </div>
+                        <div class="d-flex">
+                            <div class="me-4">
+                                <h1>3.2K+</h1>
+                                <p>Online Course</p>
+                            </div>
+                            <div class="me-4">
+                                <h1>600+</h1>
+                                <p>Online Course</p>
+                            </div>
+                            <div class="me-4">
+                                <h1>3.2K+</h1>
+                                <p>Online Course</p>
+                            </div>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary">Read More </button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- companyes end here  -->
-    <!-- main part end  -->
+        </section>
+        <!-- working part end from here  -->
 
-    <!-- footer start here  -->
-    <footer class="p-5 bg-dark bg-gradient">
-        <div class="d-flex justify-content-center ">
-            <div class="text-white text-center">
-                <div>
-                    <h1>P-Hero Tech</h1>
-                    <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
-                    <p>Privacy Ploicy | Terms of use</p>
-                </div>
-                <div class="fs-2">
-                    <a class="mx-2 text-white" href="https://www.facebook.com/mohammadnasir.ullah.735/"><i
-                            class="fa-brands fa-square-facebook"></i></a>
-                    <a class="mx-2 text-white" href="https://www.linkedin.com/in/nasir-u-5399221b0/"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                    <a class="mx-2 text-white" href="https://twitter.com/Mohamma71420299"><i
-                            class="fa-brands fa-square-twitter"></i></a>
-                    <a class="mx-2 text-white" href="https://www.instagram.com/mohammad_nasir_ullah/?hl=en"><i
-                            class="fa-brands fa-square-instagram"></i></a>
-                </div>
 
+        <!-- register part start from here  -->
+        <section class="container my-5" id="registration">
+            <div class="row bg-info border rounded p-5">
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
+                    <div class="text-white register-text">
+                        <h1>Ready to join?</h1>
+                        <p>It is a long established fact that a reader will be distracted by the
+                            readable content of a page when looking at its layout.</p>
+                    </div>
+
+                </div>
+                <div class="col-lg-6 col-md-6 d-flex justify-content-center align-items-center">
+                    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn bg-white text-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Click Here for Register
+                        </button>
+
+                        <!-- Modal form start -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Registration Here</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="">
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingInput">User Name</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="email" class="form-control" id="floatingInput"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingInput">Email address</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input type="password" class="form-control" id="floatingPassword"
+                                                    placeholder="Password">
+                                                <label for="floatingPassword">Password</label>
+                                            </div>
+                                            <select class="form-select mb-3" aria-label="Default select example">
+                                                <option selected>Select Your Country</option>
+                                                <option value="1">Bangladesh</option>
+                                                <option value="2">Turkey</option>
+                                                <option value="3">Pakistan</option>
+                                                <option value="3">Morocco</option>
+                                                <option value="3">Indonesia</option>
+                                                <option value="3">Phillipines</option>
+                                                <option value="3">Malayesia</option>
+                                                <option value="3">Bhutan</option>
+                                                <option value="3">Qatar</option>
+                                            </select>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Male
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    Female
+                                                </label>
+                                            </div>
+
+
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="flexCheckDefault">
+                                                <label class="form-check-label" for="flexCheckDefault">
+                                                    I accept all of your <a href="">terms and conditions</a>
+                                                </label>
+                                            </div>
+                                            <input class="btn btn-primary" type="button" value="Register">
+                                        </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal form end  -->
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
-    <!-- footer end here  -->
+        </section>
+        <!-- register part end here  -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-        crossorigin="anonymous"></script>
+
+        <!-- this is an optionnal section  -->
+        <!-- meet our student section starts from here  -->
+        <section class="container" id="student">
+            <div class="w-75">
+                <h1>Meet Our Succesfull Students</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout.</p>
+            </div>
+
+            <div class="container overflow-hidden text-center">
+                <div class="row gy-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Alan Shwapon</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Khadija Begum</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Abdul Hakim</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card">
+                            <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sumaiya Khan</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- meet our student section end here  -->
+
+
+        <!-- frequently asked quesctions start here  -->
+        <section class="container" id="quescion">
+            <div class="d-flex justify-content-center">
+                <div class="text-center w-50 mt-5">
+                    <h1>Frequently Asked Questions</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout.</p>
+                </div>
+            </div>
+            <!-- faqq starts from here -->
+            <div class="d-flex justify-content-center">
+                <div class="text-center w-75 m-3">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the difference between between HTML "Flex" and "Grid"
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>Dimensions define the primary demarcation</strong> between Flexbox and CSS
+                                    Grid.
+                                    Flexbox was designed specifically for one-dimensional layouts, while CSS Grid is
+                                    engineered to enable two-dimensional layouts. Therefore, CSS Grid can easily render
+                                    rows
+                                    and columns simultaneously.
+
+                                    In layperson’s terms, CSS Grid presents a larger canvas, while Flexbox offers minute
+                                    functionality that operates in a restricted space. The grids have been designed for
+                                    a
+                                    two-dimensional organization.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    Difference between "Bootstrap" and "Tailwind".
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong> Bootstrap comes with a set of pre-styled</strong> responsive, mobile-first
+                                    components that possess a definite UI kit. Tailwind CSS uses a set of utility
+                                    classes to
+                                    create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap
+                                    follow the generic pattern that makes them look identical.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    What is CSS Box Model?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>In CSS, the term "box model" is used</strong> when talking about design and
+                                    layout. The CSS box model is essentially a box that wraps around every HTML element.
+                                    It
+                                    consists of: margins, borders, padding, and the actual content.
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    What is Semantic tag?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body">
+                                    <strong>Semantic HTML elements are</strong> those that clearly describe their
+                                    meaning in
+                                    a human- and machine-readable way. Elements such as "header", "footer" and "article"
+                                    are
+                                    all considered semantic because they accurately describe the purpose of the element
+                                    and
+                                    the type of content that is inside them.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- faqq emd from here -->
+        </section>
+        <!-- frequently asked quesctions end here  -->
+
+        <!-- companyes start here  -->
+        <section class="my-5 d-none d-md-none d-lg-block">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div>
+                        <div>
+                            <h1 class="text-center">Trusted by over 800+ companies</h1>
+                        </div>
+                        <div class="mt-5">
+                            <img class="mx-3" src="images/company/company-1.png" alt="">
+                            <img class="mx-3" src="images/company/company-2.png" alt="">
+                            <img class="mx-3" src="images/company/company-3.png" alt="">
+                            <img class="mx-3" src="images/company/company-4.png" alt="">
+                            <img class="mx-3" src="images/company/company-5.png" alt="">
+                            <img class="mx-3" src="images/company/company-6.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- companyes end here  -->
+        <!-- main part end  -->
+
+        <!-- footer start here  -->
+        <footer class="p-5 bg-dark bg-gradient">
+            <div class="d-flex justify-content-center ">
+                <div class="text-white text-center">
+                    <div>
+                        <h1>P-Hero Tech</h1>
+                        <p>Office 41, Zawaya Buildin, Ghala Muscat, Sultanate of Oman</p>
+                        <p>Privacy Ploicy | Terms of use</p>
+                    </div>
+                    <div class="fs-2">
+                        <a class="mx-2 text-white" href="https://www.facebook.com/mohammadnasir.ullah.735/"><i
+                                class="fa-brands fa-square-facebook"></i></a>
+                        <a class="mx-2 text-white" href="https://www.linkedin.com/in/nasir-u-5399221b0/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a class="mx-2 text-white" href="https://twitter.com/Mohamma71420299"><i
+                                class="fa-brands fa-square-twitter"></i></a>
+                        <a class="mx-2 text-white" href="https://www.instagram.com/mohammad_nasir_ullah/?hl=en"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- footer end here  -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+            crossorigin="anonymous"></script>
     </main>
 </body>
 
